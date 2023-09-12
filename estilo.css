@@ -63,7 +63,6 @@ section {
     margin-top: 50px;
 }
 
-
 p {
     text-align: justify;
     text-indent: 1.5em;
@@ -77,7 +76,6 @@ p {
     width: 80%;
     margin-bottom: 80px;
     justify-content: center;
-
 }
 
 .section2 {
@@ -119,12 +117,10 @@ p {
     display: flex;
     margin: 30px;
     width: 80%;
-
 }
 
 .modelos {
     text-align: center;
-
 }
 
 hr {
@@ -137,7 +133,6 @@ h6 {
     font-weight: normal;
     font-size: 25px;
     display: inline;
-
 }
 
 /*FIM*/
@@ -162,7 +157,6 @@ img {
 
 .section1 img {
     margin: 20px;
-
 }
 
 .section2 img {
@@ -217,7 +211,6 @@ input {
     width: 100%;
     padding: 10px;
     border-radius: 6px;
-    
 }
 
 form{
@@ -245,7 +238,6 @@ form{
     font-size: 26px;
     padding: 20px;
     margin-right: 20px;
-    
 }
 
 .resetar {
@@ -267,8 +259,6 @@ textarea {
     background-color: rgba(255, 255, 255, 0.699);
 }
 
-
-
 /*FIM*/
 
 /*CONFIGURAÇÃO RODAPÉ*/
@@ -286,12 +276,18 @@ footer {
     box-shadow: 2px 4px 20px rgb(0, 0, 0);
 }
 
+h5{
+        color: rgb(255, 255, 255);
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+
 .nome {
     color: rgb(255, 255, 255);
     text-align: center;
     display: flex;
     align-items: center;
-
 }
 
 .nome :hover {
@@ -304,13 +300,11 @@ footer {
     border-radius: 10px;
     right: 0;
     position: absolute;
-
 }
 
 .seta a img {
     height: 50px;
     width: 50px;
-
 }
 
 .seta :hover {
@@ -323,30 +317,173 @@ footer {
 
 /*RESPONCIVIDADE*/
 
-@media screen and (min-width: 700px) and (max-width:1080px){
-
-    body{
-        width: 100vh;
-    }
+@media screen and (max-width:450px){
 
     nav{
-        height: 120px;
-        width: 1080px;
+        padding: 6%;
+        height: 80px;
+        justify-content: center;
+        
     }
 
     nav ul li a {
-        padding: 20px;
-        padding-bottom: 20px;
-        font-size: 60px;
-        margin: 18px;
+        font-size: 25px;
+        padding: 5px;
+        margin: 1px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        justify-content: space-around;
     }
 
-    footer{
-        height: 120px;
-        width: 1080px;
+    p {
+        font-size: 18px;
+        margin: 20px;
+    }
+
+    .imagem1 img {
+        height: 90%;
+        width: 90%;
+    }
+
+    .section1 {
+        display: block;
+    }
+
+    .section1 img{
+        height: 90%;
+        width: 90%;
+    }
+    
+    .section2 {
+        display: block;
+    }
+
+    .section2 img{
+        height: 90%;
+        width: 90%;
+    }
+    
+    .section3 {
+        display: block;
+    }
+
+    .section3 img{
+        height: 90%;
+        width: 90%;
+    }
+    
+    .section4 {
+        display: block;
+    }
+
+    .section4 img{
+        height: 90%;
+        width: 90%;
+    }
+    
+    .section5 {
+        display: block;
+    }
+
+    .section5 img{
+        height: 90%;
+        width: 90%;
+    }
+    
+    .section6 {
+        display: block;
+    }
+
+    .section6 img{
+        height: 90%;
+        width: 90%;
+    }
+
+    .section7 {
+        display: block;
+    }
+
+    .section7 img{
+        height: 90%;
+        width: 90%;
+    }
+
+    .modelos{
+        display: inline;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .modelos img {
+        box-shadow: 2px 4px 20px rgb(0, 0, 0);
+        background-color: #ffffffb6;
+        padding: 5px;
+        margin: 30px;
+        border-radius: 10px;
+        height: 90%;
+        width: 90%;
+        margin-right: 90px;
+    }
+
+    h6 {
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+    }
+
+    footer {
+        margin-top: 50px;
+        height: 100px;
+    }
+    
+    .nome {
+        font-size: 18px;
+        margin-right: 60px;
+    }
+
+    .seta a img {
+        height: 60px;
+        width: 60px;
+    }
+
+    h4{
+        justify-content: center;
         font-size: 30px;
     }
+    
+    input {
+        display: flex;
+        font-size: 17px;
+        width: 90%;
+        padding: 10px;
+    }
+    
+    form{
+        margin-left: 90px;
+        justify-content: center;
+    }
+    
+    .botao {
+        display: flex;
+        justify-content: center;
+        margin-right: 30px;
+    }
+    
+    .enviar {
+        padding: 10px;
+        margin-right: 10px;
+        font-size: 20px;
+        
+    }
+    
+    .resetar {
+        padding: 6px;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    
+    textarea {
+        width: 90%;
+    }
 }
-
-
 /*FIM*/
