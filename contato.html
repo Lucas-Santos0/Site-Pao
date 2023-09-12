@@ -6,6 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="estilo.css">
     <link rel="icon" type="img/png" href="fotos/pao-icon.png">
+    <script language="javascript" type="text/javascript">
+        function validar() {
+            var nome = form1.nome.value;
+            var email = form1.email.value;
+            var telefone = form1.telefone.value;
+            var assunto = form1.assunto.value;
+            var comentario = form1.comentario.value;
+
+            if (nome == "") {
+                alert('Por favor, preencha o campo seu Nome!!');
+                form1.nome.focus();
+                return false;
+            }
+
+            if (email == "") {
+                alert('Por favor, preencha o campo com o seu Email!!');
+                form1.email.focus();
+                return false;
+            }
+            if (telefone == "") {
+                alert('Por favor, preencha o campo com o seu Telefone!!');
+                form1.telefone.focus();
+                return false;
+            }
+
+            if (assunto == "") {
+                alert('Por favor, preencha o campo com o Assunto do Motivo do seu Contato!!');
+                form1.assunto.focus();
+                return false;
+            }
+
+            if (comentario == "") {
+                alert('Por favor, preencha o Comentario do Assunto!!');
+                form1.comentario.focus();
+                return false;
+            }
+
+            if (nome.length < 6) {
+                alert('por favor, preencha o campo com seu nome completo!!');
+                form1.nome.focus();
+                return false;
+            }
+
+        }
+    </script>
 </head>
 <body>
     <div class="container">
