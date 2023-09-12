@@ -381,22 +381,22 @@ h5{
 
 /*RESPONCIVIDADE*/
 
-@media screen and (max-width:450px){
+@media screen and (min-width: 400px) and (max-width:570px){
 
     nav{
-        padding: 6%;
+        padding: 7%;
         height: 80px;
-        justify-content: center;
         
     }
 
+    nav ul{
+        text-align: center;
+    }
+
     nav ul li a {
-        font-size: 25px;
-        padding: 5px;
-        margin: 1px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        justify-content: space-around;
+        font-size: 22px;
+        padding: 4px 4px;
+        margin: 4px;
     }
 
     p {
@@ -479,20 +479,20 @@ h5{
     }
 
     .modelos img {
-        box-shadow: 2px 4px 20px rgb(0, 0, 0);
-        background-color: #ffffffb6;
-        padding: 5px;
-        margin: 30px;
-        border-radius: 10px;
+        align-items: center;
         height: 90%;
-        width: 90%;
-        margin-right: 90px;
+        width: 80%;
+        margin-left: 44px;
     }
 
     h6 {
         font-size: 25px;
         display: flex;
         justify-content: center;
+    }
+
+    h5{
+       margin-left: 50px;
     }
 
     footer {
@@ -518,12 +518,12 @@ h5{
     input {
         display: flex;
         font-size: 17px;
-        width: 90%;
-        padding: 10px;
+        width: 95%;
+        padding: 0px;
     }
     
     form{
-        margin-left: 90px;
+        margin-left: 65px;
         justify-content: center;
     }
     
@@ -548,6 +548,7 @@ h5{
     
     textarea {
         width: 90%;
+        height: 20%;
     }
 }
 /*FIM*/
