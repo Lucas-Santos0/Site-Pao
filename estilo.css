@@ -8,7 +8,7 @@
 
 body {
     background-color:rgb(200, 173, 127);
-    height:100vh;
+    height: 100vh;
 }
 
 /*CONFIGURAÇÃO CABEÇALHO*/
@@ -64,6 +64,7 @@ section {
     margin-top: 50px;
 }
 
+
 p {
     text-align: justify;
     text-indent: 1.5em;
@@ -77,6 +78,7 @@ p {
     width: 80%;
     margin-bottom: 80px;
     justify-content: center;
+
 }
 
 .section2 {
@@ -118,10 +120,12 @@ p {
     display: flex;
     margin: 30px;
     width: 80%;
+
 }
 
 .modelos {
     text-align: center;
+
 }
 
 hr {
@@ -134,6 +138,7 @@ h6 {
     font-weight: normal;
     font-size: 25px;
     display: inline;
+
 }
 
 /*FIM*/
@@ -166,6 +171,7 @@ img {
 .section1 img {
     margin: 20px;
     transition: 1s;
+
 }
 
 .section1 img:hover{
@@ -275,6 +281,7 @@ input {
     width: 100%;
     padding: 10px;
     border-radius: 6px;
+    
 }
 
 form{
@@ -302,6 +309,7 @@ form{
     font-size: 26px;
     padding: 20px;
     margin-right: 20px;
+    
 }
 
 .resetar {
@@ -325,10 +333,10 @@ textarea {
 
 .seta2{
     display: flex;
-    padding: 5px;
+    padding: 3px;
     border-radius: 10px;
     background-color: #000000;
-    width: 3.5%;
+    width: 4%;
     margin-left: 20px;
 }
 
@@ -339,6 +347,9 @@ textarea {
 
 
 }
+
+
+
 /*FIM*/
 
 /*CONFIGURAÇÃO RODAPÉ*/
@@ -357,10 +368,11 @@ footer {
 }
 
 h5{
-    color: rgb(255, 255, 255);
-    text-align: center;
-    display: flex;
-    align-items: center;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        display: flex;
+        align-items: center;
+    
     }
 
 .nome {
@@ -368,6 +380,7 @@ h5{
     text-align: center;
     display: flex;
     align-items: center;
+
 }
 
 .nome :hover {
@@ -380,11 +393,13 @@ h5{
     border-radius: 10px;
     right: 0;
     position: absolute;
+
 }
 
 .seta a img {
     height: 50px;
     width: 50px;
+
 }
 
 .seta :hover {
@@ -395,24 +410,28 @@ h5{
 
 /*FIM*/
 
-/*RESPONCIVIDADE IPHONE XR*/
+/*RESPONCIVIDADE*/
 
-@media screen and (min-width: 400px) and (max-width:570px){
+@media screen and (max-width:570px){
 
     nav{
-        padding: 7%;
-        height: 80px;
+        padding: 6%;
+        height: 120px;
+        justify-content: center;
         
     }
 
     nav ul{
-        text-align: center;
+        display: flex;
+        justify-content: space-around;
     }
 
     nav ul li a {
-        font-size: 22px;
-        padding: 4px 4px;
-        margin: 4px;
+        font-size: 25px;
+        padding: 5px;
+        margin: 1px;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 
     p {
@@ -434,6 +453,7 @@ h5{
         width: 90%;
     }
 
+    
     .section2 {
         display: block;
     }
@@ -481,6 +501,7 @@ h5{
 
     .section7 {
         display: block;
+    
     }
 
     .section7 img{
@@ -495,16 +516,28 @@ h5{
     }
 
     .modelos img {
-        align-items: center;
+        box-shadow: 2px 4px 20px rgb(0, 0, 0);
+        background-color: #ffffffb6;
+        padding: 5px;
+        margin: 30px;
+        border-radius: 10px;
         height: 90%;
-        width: 80%;
-        margin-left: 44px;
+        width: 90%;
+        margin-right: 90px;
     }
 
     h6 {
         font-size: 25px;
         display: flex;
         justify-content: center;
+    
+    }
+
+    footer {
+        margin-top: 50px;
+        height: 100px;
+        position: relative;
+        bottom: 0px;
     }
 
     h5{
@@ -512,36 +545,34 @@ h5{
         font-size: 20px;
     }
     
-    footer {
-        margin-top: 50px;
-        height: 100px;
-    }
-    
     .nome {
         font-size: 18px;
         margin-right: 60px;
+        text-align: center;
     }
 
     .seta a img {
         height: 60px;
         width: 60px;
+    
     }
 
     h4{
         justify-content: center;
         font-size: 30px;
-        margin-left: 30px;
     }
     
     input {
+        
         display: flex;
         font-size: 17px;
-        width: 95%;
-        padding: 0px;
+        width: 90%;
+        padding: 10px;
+        
     }
     
     form{
-        margin-left: 65px;
+        margin-left: 90px;
         justify-content: center;
     }
     
@@ -566,13 +597,12 @@ h5{
     
     textarea {
         width: 90%;
-        height: 20%;
     }
 
     .seta2{
         padding: 3px;
         border-radius: 10px;
-        width: 15%;
+        width: 11%;
         margin-left: 20px;
     }
     
@@ -583,5 +613,7 @@ h5{
     
     
     }
+
 }
+
 /*FIM*/
