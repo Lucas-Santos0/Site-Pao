@@ -416,7 +416,7 @@ h5{
 
     nav{
         padding: 6%;
-        height: 120px;
+        height: 90px;
         justify-content: center;
         
     }
@@ -610,8 +610,6 @@ h5{
         height: 50px;
         width: 50px;
         rotate: -90deg;
-    
-    
     }
 
 }
