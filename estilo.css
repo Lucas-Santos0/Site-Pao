@@ -536,6 +536,11 @@ h5{
     footer {
         margin-top: 50px;
         height: 100px;
+        position: relative;
+        bottom: 0px;
+    }
+
+    .footer2 {
         position: absolute;
         bottom: 0px;
     }
